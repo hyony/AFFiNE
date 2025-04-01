@@ -51,6 +51,7 @@ export class OpenAIProvider
     'gpt-4o-mini-2024-07-18',
     'o1',
     'o3-mini',
+    'deepseek-chat',
     // embeddings
     'text-embedding-3-large',
     'text-embedding-3-small',

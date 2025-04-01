@@ -29,12 +29,13 @@ declare global {
 defineModuleConfig('copilot', {
   enabled: {
     desc: 'Whether to enable the copilot plugin.',
-    default: false,
+    default: true,
   },
   'providers.openai': {
     desc: 'The config for the openai provider.',
     default: {
-      apiKey: '',
+      apiKey: 'sk-7719a1044ac94962b81471190183ab58',
+      baseURL: 'https://api.deepseek.com',
     },
     link: 'https://github.com/openai/openai-node',
   },

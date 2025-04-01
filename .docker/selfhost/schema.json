@@ -639,13 +639,14 @@
         "enabled": {
           "type": "boolean",
           "description": "Whether to enable the copilot plugin.\n@default false",
-          "default": false
+          "default": true
         },
         "providers.openai": {
           "type": "object",
           "description": "The config for the openai provider.\n@default {\"apiKey\":\"\"}\n@link https://github.com/openai/openai-node",
           "default": {
-            "apiKey": ""
+            "apiKey": "sk-7719a1044ac94962b81471190183ab58",
+            "baseURL": "https://api.deepseek.com"
           }
         },
         "providers.fal": {
