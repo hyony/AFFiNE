@@ -20,7 +20,8 @@ export enum AvailableModels {
   TextModerationStable = 'text-moderation-stable',
   // text to image
   DallE3 = 'dall-e-3',
-  DeepSeek = 'deepseek-chat',
+  DeepSeekV3 = 'deepseek-chat',
+  DeepSeekR1 = 'deepseek-reasoner',
 }
 
 export type AvailableModel = keyof typeof AvailableModels;

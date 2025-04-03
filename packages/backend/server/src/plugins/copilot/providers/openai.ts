@@ -52,6 +52,7 @@ export class OpenAIProvider
     'o1',
     'o3-mini',
     'deepseek-chat',
+    'deepseek-reasoner',
     // embeddings
     'text-embedding-3-large',
     'text-embedding-3-small',

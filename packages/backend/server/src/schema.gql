@@ -191,7 +191,8 @@ type CopilotMessageNotFoundDataType {
 
 enum CopilotModels {
   DallE3
-  DeepSeek
+  DeepSeekR1
+  DeepSeekV3
   Gpt4Omni
   Gpt4Omni0806
   Gpt4OmniMini
